@@ -1,0 +1,39 @@
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.uno{
+    background-color: #f2ebf3;
+}
+
+.bi {
+    font-size: 6rem;
+}
+
+.text-sing {
+    font-size: 1.5rem;
+}
+
+.icon-login{
+    font-size: 2rem;
+}
+
+.google {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+
+    .dos {
+        display: none;
+    }
+
+    .uno {
+        height: 100vh;
+    }
+
+    .formulario {
+        margin-top: 7vh;
+    }
+}
