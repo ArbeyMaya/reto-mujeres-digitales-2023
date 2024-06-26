@@ -7,66 +7,28 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+
         <title>Login</title>
     </head>
     <body>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-7 dos p-0">
-                    <div id="carouselExample" class="carousel slide " data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active" data-bs-interval="2000">
-                            <img src="img/img-carrusel-1.jpg" class="d-block img-fluid vh-100 " alt="...">
-                          </div>
-                          <div class="carousel-item" data-bs-interval="2000">
-                            <img src="img/img-carrusel-2.jpg" class="d-block img-fluid vh-100" alt="...">
-                          </div>
-                          <div class="carousel-item" data-bs-interval="2000">
-                            <img src="img/img-carrusel-3.jpg" class="d-block img-fluid vh-100" alt="...">
-                          </div>
-                        </div>
-                      </div>
+            <form class="mx-auto">
+                <h4 class="text-center">Login</h4>
+                <div class="mb-3 mt-5">
+                  <label for="exampleInputEmail1" class="form-label">User Name</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
-                <div class="col-md-5 uno p-0">
-                    <form class="p-5 formulario">
-                        <i class="bi bi-person-circle d-flex justify-content-center align-items-center pb-3"></i>
-                        <h1 class="d-flex justify-content-center align-items-center text-sing pb-3">Login</h1>
-
-                        <div class="row mb-3 justify-content-center pt-3">
-                          <div class="input-group">
-                            <i class="bi bi-person-fill icon-login input-group-text bg-info"></i>
-                            <input class="form-control" type="text" placeholder="Correo electronico">
-                          </div>
-                          <div class="input-group pt-3">
-                            <i class="bi bi-lock icon-login input-group-text bg-info"></i>
-                            <input class="form-control" type="password" placeholder="Contraseña">
-                          </div>
-                        </div>
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                          <label class="form-check-label" for="flexCheckDefault">
-                            Recordar
-                          </label>
-                        </div>
-                        <div class="container d-flex justify-content-center">
-                          <a href="inicio/inicio.html" type="submit" class="btn btn-info" >Sign in</a>
-                        </div>
-                        <div class="mt-3">
-                          <p><a href="#">Recuperar Contraseña</a></p>
-                        </div>
-                        <div class="btn btn-light d-flex gap-2 justify-content-center border mt-3">
-                          <i class="bi google bi-google"></i>
-                          <div class="fw-semibold">Continuar con google</div>
-                        </div>
-                        <div class="btn btn-light d-flex gap-2 justify-content-center border mt-3">
-                          <i class="bi google bi-facebook"></i>
-                          <div class="fw-semibold">Continuar con facebook</div>
-                        </div>
-                      </form>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <div id="emailHelp" class="form-text mt-3">Forget password ?</div>
                 </div>
-            </div>
+              
+                <a href="inicio/inicio.html" type="submit" class="btn btn-primary mt-5">Login</a>
+              </form>
         </div>
-    
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

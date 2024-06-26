@@ -1,39 +1,49 @@
-.container{
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
 }
 
-.uno{
-    background-color: #f2ebf3;
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: 'Poppins', sans-serif;
+
+}
+form{
+    border-radius: 20px;
+    margin-top: 150px !important;
+    width: 24% !important;
+    background-color: white !important;
+    padding: 50px;
 }
 
-.bi {
-    font-size: 6rem;
+.btn-primary{
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+    
 }
 
-.text-sing {
-    font-size: 1.5rem;
-}
-
-.icon-login{
-    font-size: 2rem;
-}
-
-.google {
-    font-size: 1rem;
-}
-
-@media screen and (max-width: 768px) {
-
-    .dos {
-        display: none;
+.form-control{
+    color: rgba(0,0,0,.87);
+    border-bottom-color: rgba(0,0,0,.42);
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
     }
-
-    .uno {
-        height: 100vh;
+ h4{
+    font-size: 2rem !important;
+    font-weight: 700;
+ }  
+ .form-label{
+    font-weight: 800 !important;
+ }
+@media only screen and (max-width: 600px) {
+    form {
+        width: 100% !important;
     }
-
-    .formulario {
-        margin-top: 7vh;
-    }
-}
+  }
