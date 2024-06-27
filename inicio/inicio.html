@@ -23,39 +23,62 @@
                     Admin
                   </li>
                   <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
-                      <i class="bi bi-list-ul pe-2"></i>
-                      Dashbohard
+                    <li class="sidebar-item">
+                      <a href="#" class="sidebar-link">
+                        <i class="bi bi-house pe-2"></i>
+                        Inicio
+                      </a>
+                    </li>
+                    <a href="#" class="sidebar-link collapsed" data-bs-target="#manzanas" data-bs-toggle="collapse" aria-expanded="false">
+                      <i class="bi bi-list-task pe-2"></i>
+                      Manzanas
                     </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="#" class="sidebar-link collapsed" data-bs-target="#pages" data-bs-toggle="collapse" aria-expanded="false">
-                      <i class="bi bi-file-earmark pe-2"></i>
-                      Pages
-                    </a>
-                    <ul id="pages" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                    <ul id="manzanas" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
                       <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">Page 1</a>
+                        <a href="#" class="sidebar-link">Todos</a>
                       </li>
                       <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">Page 2</a>
+                        <a href="#" class="sidebar-link">Disponibles</a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Registrar</a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Eliminar</a>
                       </li>
                     </ul>
                   </li>
                   <li class="sidebar-item">
-                    <a href="#" class="sidebar-link collapsed" data-bs-target="#posts" data-bs-toggle="collapse" aria-expanded="false">
-                      <i class="bi bi-sliders pe-2"></i>
-                      Posts
+                    <a href="#" class="sidebar-link collapsed" data-bs-target="#pages" data-bs-toggle="collapse" aria-expanded="false">
+                      <i class="bi bi-geo-alt pe-2"></i>
+                      Municipios
                     </a>
-                    <ul id="posts" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                    <ul id="pages" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
                       <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">Post 1</a>
+                        <a href="#" class="sidebar-link">Todos</a>
                       </li>
                       <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">Post 2</a>
+                        <a href="#" class="sidebar-link">Registrar</a>
                       </li>
                       <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">Post 3</a>
+                        <a href="#" class="sidebar-link">Eliminar</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed" data-bs-target="#usuarios" data-bs-toggle="collapse" aria-expanded="false">
+                      <i class="bi bi-people pe-2"></i>
+                      Usuarios
+                    </a>
+                    <ul id="usuarios" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Todos</a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Registrar Usuarios</a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Eliminar usuario</a>
                       </li>
                     </ul>
                   </li>
@@ -76,30 +99,6 @@
                       </li>
                     </ul>
                   </li>
-                  <li class="sidebar-header">
-                    Multi level menu
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="#" class="sidebar-link collapsed" data-bs-target="#multi" data-bs-toggle="collapse" aria-expanded="false">
-                      <i class="fa-solid fa-share-nodes pe-2"></i>
-                      Multi Dropdown
-                    </a>
-                    <ul id="multi" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
-                      <li class="sidebar-item">
-                        <a href="#" class="sidebar-link collapsed" data-bs-target="#level-1" data-bs-toggle="collapse" aria-expanded="false">
-                          Level 1
-                        </a>
-                        <ul id="level-1" class="sidebar-dropdown list-unstyled collapse">
-                          <li class="sidebar-item">
-                            <a href="#" class="sidebar-link">Level 1.1</a>
-                          </li>
-                          <li class="sidebar-item">
-                            <a href="#" class="sidebar-link">Level 1.2</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
                 </ul>
              </div>
           </aside>
@@ -115,9 +114,9 @@
                       <img src="img-inicio/profile.jpg" class="avatar img-fluid rounded" alt="">
                     </a>
                     <div class="dropdown-menu dropdown-menu-end">
-                      <a href="#" class="dropdown-item">Profile</a>
-                      <a href="#" class="dropdown-item">Settings</a>
-                      <a href="#" class="dropdown-item">Logout</a>
+                      <a href="#" class="dropdown-item">Perfil</a>
+                      <a href="#" class="dropdown-item">Configuración</a>
+                      <a href="../index.html" class="dropdown-item">Salir</a>
                     </div>
                   </li>
                 </ul>
@@ -126,92 +125,57 @@
             <main class="content px-3 py-2">
               <div class="container-fluid">
                 <div class="mb-3">
-                  <h4>Admin Dashboard</h4>
+                  <h4>Inicio</h4>
                 </div>
-                <div class="row">
-                  <div class="col-12 col-md-6 d-flex">
-                    <div class="card flex-fill border-0 illustration">
-                      <div class="card-body p-0 d-flex flex-fill">
-                        <div class="row g-0 w-100">
-                          <div class="col-6">
-                            <div class="p-3 m-1">
-                              <h4>Welcome Back, Admin</h4>
-                              <p class="mb-0">Admin Dashboard, SystemAdmin</p>
-                            </div>
-                          </div>
-                          <div class="col-6 align-self-end text-end">
-                            <img src="img-inicio/customer-support.jpg" class="img-fluid illustration-img" alt="">
-                          </div>
+                <div class="mb-3 d-flex justify-content-center">
+                  <h4>Manzanas disponibles</h4>
+                </div>
+                <div class="py-5 buscador">
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar Manzana" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                  </form>
+                </div>
+                <div class="container-fluid row">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4014.6206570011814!2d-75.6300935168446!3d2.195438064341761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e24d98384178e01%3A0x9f68d7ef91701394!2zR2FyesOzbiwgSHVpbGE!5e0!3m2!1ses-419!2sco!4v1719454755106!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <!-- carrusel -->
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-12 col-md-6 d-flex"></div>
-                  <div class="card flex-fill border-0">
-                    <div class="card-body py-4">
-                      <div class="d-flex aling-items-start">
-                        <div class="flex-grow-1">
-                          <h4 class="mb-2">
-                            $78.000
-                          </h4>
-                          <p class="mb-2">
-                            Total Eanings
-                          </p>
-                          <div class="mb-0">
-                            <span class="badge text-success me-2">
-                              +9%
-                            </span>
-                            <span class="text-muted">
-                              Since Last Month
-                            </span>
-                          </div>
-                        </div>
-                      </div>
+                    <div class="carousel-item">
+                      <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="..." class="d-block w-100" alt="...">
                     </div>
                   </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
-                <!-- tabla de elementos -->
-                 <div class="card border-0">
-                  <div class="card-header">
-                    <h5 class="card-title">
-                      Basic Table
-                    </h5>
-                    <h6 class="card-subtitle text-muted">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos ducimus culpa suscipit obcaecati distinctio voluptatem itaque ex reiciendis ipsa inventore debitis aliquid recusandae adipisci vitae hic similique rem, animi tempora?
-                    </h6>
-                  </div>
-                  <div class="card-body">
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th scope="col">#</th>
-                          <th scope="col">First</th>
-                          <th scope="col">Last</th>
-                          <th scope="col">Handle</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row">1</th>
-                          <td>Mark</td>
-                          <td>Otto</td>
-                          <td>@mdo</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">2</th>
-                          <td>Jacob</td>
-                          <td>Thornton</td>
-                          <td>@fat</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">3</th>
-                          <td colspan="2">Larry the Bird</td>
-                          <td>@twitter</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                 </div>
               </div>
             </main>
             <footer class="footer">

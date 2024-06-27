@@ -151,6 +151,9 @@ a.sidebar-link {
     margin-left: -264px;
 }
 
+.buscador{
+    width: 23rem;
+}
 /* Footer y nav */
 
 @media (max-width: 767.98px) {
